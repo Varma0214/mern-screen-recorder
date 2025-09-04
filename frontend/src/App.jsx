@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://mern-screen-recorder-ucpp.onrender.com/api'; // Set in env for prod
+const API_URL = process.env.REACT_APP_API_URL || 'https://mern-screen-recorder-b7ru.onrender.com/api'; 
 
 function Recorder() {
   const [recording, setRecording] = useState(false);
